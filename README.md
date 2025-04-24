@@ -14,7 +14,6 @@ A responsive React + Redux Toolkit application that tracks real-time cryptocurre
 ## Tech Stack
 
 - **React**: UI library
-- **Next.js**: React framework
 - **Redux Toolkit**: State management
 - **Tailwind CSS**: Styling
 - **shadcn/ui**: UI components
