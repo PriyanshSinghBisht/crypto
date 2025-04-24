@@ -42,31 +42,30 @@ The application simulates WebSocket connections using `setInterval` to periodica
 ## Setup Instructions
 
 1. Clone the repository:
-   \`\`\`bash
-   git clone https://github.com/yourusername/crypto-price-tracker.git
-   cd crypto-price-tracker
-   \`\`\`
+```bash
+   git clone https://github.com/PriyanshSinghBisht/crypto.git
+   cd crypto
+   ```
 
 2. Install dependencies:
-   \`\`\`bash
+   ```bash
    npm install
-   \`\`\`
-
+   ```
+  
 3. Run the development server:
-   \`\`\`bash
+   ```bash
    npm run dev
-   \`\`\`
+   ```
 
-4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the application.
+5. Open [http://localhost:5173](http://localhost:5173) in your browser to see the application.
 
 ## Demo
-
-![Crypto Price Tracker Demo](demo.gif)
+present in demp.gif file
 
 ## Future Improvements
 
 - Integrate real WebSocket connections (e.g., Binance API)
-- Add filtering and sorting options
-- Implement localStorage for persisting user preferences
+- ~~Add filtering and sorting options~~
+- ~~Implement localStorage for persisting user preferences~~
 - Add unit tests for reducers and selectors
 - Add detailed view for each cryptocurrency
